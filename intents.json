@@ -1,153 +1,154 @@
-{
-    "intents": [
-      {
-        "tag": "sapaan",
-        "patterns": [
-          "Hai",
-          "Halo",
-          "Selamat pagi",
-          "Selamat siang",
-          "Selamat sore",
-          "Selamat malam",
-          "Siapa disana?",
-          "Hai, apa kabar?"
-        ],
-        "responses": [
-          "Selamat datang di Layanan Sertifikat Kelahiran! Bagaimana saya dapat membantu Anda?",
-          "Hai! Bagaimana saya dapat membantu Anda dengan sertifikat kelahiran hari ini?",
-          "Selamat pagi! Bagaimana saya dapat membantu Anda dengan sertifikat kelahiran?",
-          "Selamat siang! Bagaimana saya dapat membantu Anda dengan sertifikat kelahiran?",
-          "Selamat sore! Bagaimana saya dapat membantu Anda dengan sertifikat kelahiran?"
-        ]
-      },
-      {
-        "tag": "ucapan_sampai",
-        "patterns": ["Sampai jumpa", "Selamat tinggal", "Terima kasih", "Sampai nanti", "Selamat pagi", "Selamat siang", "Selamat sore"],
-        "responses": [
-          "Terima kasih atas kunjungan Anda. Semoga hari Anda menyenangkan!",
-          "Terima kasih telah menghubungi kami. Jika Anda memiliki pertanyaan lain, jangan ragu untuk bertanya!",
-          "Selamat tinggal! Semoga Anda dapat menemukan informasi yang Anda cari.",
-          "Terima kasih telah mengunjungi kami. Jika Anda memiliki pertanyaan lain, jangan ragu untuk bertanya!"
-        ]
-      },
-      {
-        "tag": "syarat",
-        "patterns": [
-          "Apa syarat untuk sertifikat kelahiran",
-          "Dokumen apa yang dibutuhkan",
-          "Syarat untuk sertifikat kelahiran",
-          "Apa saja yang harus saya siapkan",
-          "Syarat untuk mengajukan sertifikat kelahiran",
-          "Dokumen apa yang harus saya bawa",
-          "Syarat untuk mendapatkan sertifikat kelahiran"
-        ],
-        "responses": [
-          "Untuk mengajukan sertifikat kelahiran, Anda memerlukan dokumen-dokumen berikut: 1) Surat keterangan lahir dari rumah sakit, 2) KTP orang tua, 3) Surat nikah (jika orang tua sudah menikah), 4) Formulir pengajuan.",
-          "Syarat untuk sertifikat kelahiran adalah: surat keterangan lahir dari rumah sakit, KTP orang tua, surat nikah (jika orang tua sudah menikah), dan formulir pengajuan.",
-          "Anda perlu menyiapkan: surat keterangan lahir dari rumah sakit, KTP orang tua, surat nikah (jika orang tua sudah menikah), dan formulir pengajuan."
-        ]
-      },
-      {
-        "tag": "proses",
-        "patterns": [
-          "Bagaimana cara mengajukan sertifikat kelahiran",
-          "Proses pengajuan",
-          "Bagaimana cara mendapatkan sertifikat kelahiran",
-          "Proses pengajuan sertifikat kelahiran",
-          "Bagaimana cara mengajukan",
-          "Proses pengajuan sertifikat",
-          "Bagaimana cara mengajukan sertifikat"
-        ],
-        "responses": [
-          "Proses pengajuan sertifikat kelahiran adalah: 1) Mengisi formulir pengajuan, 2) Menyerahkan dokumen-dokumen yang dibutuhkan, 3) Membayar biaya pengajuan, 4) Menunggu sertifikat selesai diproses dalam waktu 7 hari kerja.",
-          "Anda perlu mengisi formulir pengajuan, menyerahkan dokumen-dokumen yang dibutuhkan, membayar biaya pengajuan, dan menunggu sertifikat selesai diproses dalam waktu 7 hari kerja.",
-          "Proses pengajuan sertifikat kelahiran adalah: mengisi formulir pengajuan, menyerahkan dokumen-dokumen yang dibutuhkan, membayar biaya pengajuan, dan menunggu sertifikat selesai diproses dalam waktu 7 hari kerja."
-        ]
-      },
-      {
-        "tag": "biaya",
-        "patterns": [
-          "Berapa biaya untuk sertifikat kelahiran",
-          "Biaya sertifikat kelahiran",
-          "Biaya untuk mengajukan sertifikat kelahiran",
-          "Biaya pengajuan sertifikat kelahiran",
-          "Berapa biaya yang harus saya bayar",
-          "Berapa biaya untuk sertifikat",
-          "Biaya untuk sertifikat"
-        ],
-        "responses": [
-          "Biaya untuk sertifikat kelahiran adalah Rp 25.000 untuk proses reguler (7 hari kerja) dan Rp 50.000 untuk proses express (3 hari kerja).",
-          "Biaya untuk sertifikat kelahiran adalah Rp 25.000 untuk proses reguler dan Rp 50.000 untuk proses express.",
-          "Anda perlu membayar biaya Rp 25.000 untuk proses reguler dan Rp 50.000 untuk proses express."
-        ]
-      },
-      {
-        "tag": "lokasi",
-        "patterns": [
-          "Di mana saya dapat mengajukan sertifikat kelahiran",
-          "Alamat kantor",
-          "Di mana saya dapat mengajukan",
-          "Kantor pengajuan",
-          "Di mana saya dapat menemukan informasi",
-          "Alamat kantor pengajuan",
-          "Di mana saya dapat mengajukan sertifikat"
-        ],
-        "responses": [
-          "Anda dapat mengajukan sertifikat kelahiran di kantor Dinas Kependudukan dan Catatan Sipil (Disdukcapil) terdekat atau di kantor kami di Jalan Jenderal Sudirman No. 1.",
-          "Kantor kami terletak di Jalan Jenderal Sudirman No. 1. Anda dapat mengajukan sertifikat kelahiran di sana.",
-          "Anda dapat mengajukan sertifikat kelahiran di kantor Disdukcapil terdekat atau di kantor kami di Jalan Jenderal Sudirman No. 1."
-        ]
-      },
-      {
-        "tag": "online",
-        "patterns": [
-          "Apakah saya dapat mengajukan sertifikat kelahiran online",
-          "Pengajuan online",
-          "Dapatkah saya mengajukan sertifikat kelahiran dari rumah",
-          "Apakah saya dapat mengajukan sertifikat kelahiran melalui internet",
-          "Dapatkah saya mengajukan sertifikat kelahiran secara online",
-          "Pengajuan sertifikat kelahiran online",
-          "Dapatkah saya mengajukan sertifikat kelahiran dari internet"
-        ],
-        "responses": [
-          "Ya, Anda dapat mengajukan sertifikat kelahiran secara online melalui website kami. Anda perlu mengunggah dokumen-dokumen yang dibutuhkan dan membayar biaya pengajuan.",
-          "Anda dapat mengajukan sertifikat kelahiran secara online melalui website kami. Anda perlu mengunggah dokumen-dokumen yang dibutuhkan dan membayar biaya pengajuan.",
-          "Ya, kami menyediakan layanan pengajuan sertifikat kelahiran secara online. Anda dapat mengunggah dokumen-dokumen yang dibutuhkan dan membayar biaya pengajuan melalui website kami."
-        ]
-      },
-      {
-        "tag": "waktu",
-        "patterns": [
-          "Berapa lama waktu yang dibutuhkan untuk mengajukan sertifikat kelahiran",
-          "Waktu pengajuan",
-          "Berapa lama waktu yang dibutuhkan untuk mendapatkan sertifikat kelahiran",
-          "Waktu pengajuan sertifikat kelahiran",
-          "Berapa lama waktu yang dibutuhkan untuk mengajukan",
-          "Waktu pengajuan sertifikat",
-          "Berapa lama waktu yang dibutuhkan untuk mengajukan sertifikat"
-        ],
-        "responses": [
-          "Waktu pengajuan sertifikat kelahiran adalah 7 hari kerja untuk proses reguler dan 3 hari kerja untuk proses express.",
-          "Anda akan menerima sertifikat kelahiran dalam waktu 7 hari kerja untuk proses reguler dan 3 hari kerja untuk proses express.",
-          "Waktu pengajuan sertifikat kelahiran adalah 7 hari kerja untuk proses reguler dan 3 hari kerja untuk proses express."
-        ]
-      },
-      {
-        "tag": "koreksi",
-        "patterns": [
-          "Bagaimana cara mengoreksi informasi pada sertifikat kelahiran",
-          "Koreksi informasi",
-          "Bagaimana cara mengubah informasi pada sertifikat kelahiran",
-          "Koreksi informasi pada sertifikat kelahiran",
-          "Bagaimana cara mengoreksi",
-          "Koreksi informasi pada sertifikat",
-          "Bagaimana cara mengubah informasi pada sertifikat"
-        ],
-        "responses": [
-          "Untuk mengoreksi informasi pada sertifikat kelahiran, Anda dapat menghubungi kantor kami di Jalan Jenderal Sudirman No. 1.",
-          "Anda dapat menghubungi kantor kami di Jalan Jenderal Sudirman No. 1 untuk mengoreksi informasi pada sertifikat kelahiran.",
-          "Untuk mengoreksi informasi pada sertifikat kelahiran, Anda dapat menghubungi kantor kami di Jalan Jenderal Sudirman No. 1."
-        ]
-      }
-    ]
-  }
+it{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hai", "Halo", "Selamat pagi", "Selamat siang", "Selamat sore", "Apa kabar?"],
+      "responses": ["Halo! Ada yang bisa saya bantu?", "Selamat datang di layanan Dukcapil Brebes. Ada yang bisa dibantu?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Terima kasih", "Sampai jumpa", "Dadah", "Saya pergi dulu"],
+      "responses": ["Terima kasih telah menggunakan layanan ini. Semoga harimu menyenangkan!", "Sampai jumpa kembali!"]
+    },
+    {
+      "tag": "jam_pelayanan",
+      "patterns": ["Jam buka", "Jam pelayanan", "Jam kerja Dukcapil", "Buka jam berapa?", "Kapan tutup?"],
+      "responses": [
+        "Jam pelayanan Dukcapil Brebes adalah Senin sampai Jumat, pukul 08.00 - 15.00 WIB. Istirahat pukul 12.00 - 13.00 WIB."
+      ]
+    },
+    {
+      "tag": "lokasi_kantor",
+      "patterns": ["Alamat kantor", "Lokasi Dukcapil", "Dimana Dukcapil?", "Alamat Disdukcapil"],
+      "responses": [
+        "Kantor Dukcapil Brebes beralamat di Jl. Gajah Mada No.99, Brebes, Jawa Tengah."
+      ]
+    },
+    {
+      "tag": "kontak",
+      "patterns": ["Nomor telepon", "Kontak Dukcapil", "Hubungi Dukcapil", "Call center Dukcapil"],
+      "responses": [
+        "Anda dapat menghubungi kami di nomor (0283) 671305 atau melalui email disdukcapil@brebeskab.go.id."
+      ]
+    },
+    {
+      "tag": "persyaratan_kk_baru",
+      "patterns": ["Syarat buat KK baru", "KK baru", "Cara membuat KK", "Persyaratan kartu keluarga baru"],
+      "responses": [
+        "Syarat membuat KK baru: 1) Surat Pengantar RT/RW, 2) Fotokopi Buku Nikah/Akta Nikah, 3) Fotokopi KTP semua anggota keluarga, 4) Formulir F1-01."
+      ]
+    },
+    {
+      "tag": "persyaratan_kk_perubahan",
+      "patterns": ["Ubah KK", "Perubahan data KK", "Update KK", "Edit KK"],
+      "responses": [
+        "Persyaratan perubahan data pada KK: 1) KK lama, 2) Dokumen pendukung perubahan (misal: akta kelahiran/kematian, surat cerai), 3) Formulir F1-01."
+      ]
+    },
+    {
+      "tag": "persyaratan_ktp_baru",
+      "patterns": ["Syarat buat KTP", "KTP baru", "KTP pemula", "Cara membuat KTP"],
+      "responses": [
+        "Persyaratan KTP-el baru: 1) Berusia 17 tahun, 2) Fotokopi KK, 3) Telah melakukan perekaman biometrik (sidik jari & retina)."
+      ]
+    },
+    {
+      "tag": "persyaratan_ktp_rusak_hilang",
+      "patterns": ["KTP hilang", "KTP rusak", "Ganti KTP", "Kehilangan KTP"],
+      "responses": [
+        "Syarat ganti KTP yang hilang/rusak: 1) Surat Kehilangan dari Kepolisian (untuk KTP hilang), 2) KTP lama yang rusak (untuk KTP rusak), 3) Fotokopi KK."
+      ]
+    },
+    {
+      "tag": "persyaratan_akta_kelahiran",
+      "patterns": ["Buat akta lahir", "Akta kelahiran", "Syarat akta lahir", "Registrasi akta lahir"],
+      "responses": [
+        "Persyaratan Akta Kelahiran: 1) Surat keterangan lahir dari bidan/rumah sakit, 2) KK, 3) KTP orang tua, 4) Buku Nikah orang tua, 5) Formulir F2-01."
+      ]
+    },
+    {
+      "tag": "persyaratan_akta_kematian",
+      "patterns": ["Akta kematian", "Buat akta meninggal", "Syarat akta kematian"],
+      "responses": [
+        "Syarat Akta Kematian: 1) Surat keterangan kematian dari rumah sakit/kelurahan, 2) KTP dan KK almarhum/almarhumah, 3) KTP pelapor, 4) Formulir F2-29."
+      ]
+    },
+    {
+      "tag": "persyaratan_akta_perkawinan",
+      "patterns": ["Akta perkawinan", "Catatan pernikahan", "Syarat akta nikah"],
+      "responses": [
+        "Syarat Pencatatan Perkawinan Non-Muslim: 1) Fotokopi KTP dan KK kedua mempelai, 2) Akta kelahiran kedua mempelai, 3) Surat pernikahan dari pemuka agama, 4) Pas foto 4x6 berwarna (4 lembar)."
+      ]
+    },
+    {
+      "tag": "persyaratan_akta_perceraian",
+      "patterns": ["Akta cerai", "Pencatatan perceraian", "Catat cerai"],
+      "responses": [
+        "Syarat Pencatatan Perceraian: 1) Fotokopi putusan pengadilan yang sudah inkrah, 2) KK dan KTP, 3) Akta nikah, 4) Formulir F2-31."
+      ]
+    },
+    {
+      "tag": "pengajuan_online",
+      "patterns": ["Daftar online", "Pengajuan online", "Layanan online", "Website Dukcapil Brebes"],
+      "responses": [
+        "Pengajuan layanan online dapat dilakukan melalui website https://disdukcapil.brebeskab.go.id atau aplikasi SIAK Online Brebes."
+      ]
+    },
+    {
+      "tag": "status_pengajuan",
+      "patterns": ["Cek status pengajuan", "Status dokumen", "Sudah selesai belum?", "Cek KK saya"],
+      "responses": [
+        "Untuk mengecek status pengajuan, silakan login ke website https://disdukcapil.brebeskab.go.id dan gunakan menu 'Cek Status Pengajuan' dengan NIK atau nomor permohonan."
+      ]
+    },
+    {
+      "tag": "percetakan_ktp",
+      "patterns": ["Cetak KTP", "Kapan KTP bisa diambil?", "Sudah bisa cetak KTP?"],
+      "responses": [
+        "KTP dapat dicetak jika data Anda sudah tervalidasi dan tidak ada gangguan server pusat. Silakan hubungi petugas atau cek status Anda secara online."
+      ]
+    },
+    {
+      "tag": "pengaduan",
+      "patterns": ["Lapor masalah", "Saya mau komplain", "Keluhan", "Aduan layanan"],
+      "responses": [
+        "Untuk pengaduan layanan, silakan isi form pengaduan di https://disdukcapil.brebeskab.go.id/pengaduan atau hubungi langsung call center kami."
+      ]
+    },
+    {
+      "tag": "biaya_layanan",
+      "patterns": ["Berapa biayanya?", "Layanan gratis?", "Bayar berapa?", "Ada biaya?"],
+      "responses": [
+        "Semua layanan administrasi kependudukan di Dukcapil Brebes tidak dipungut biaya alias GRATIS."
+      ]
+    },
+    {
+      "tag": "sanksi_kk",
+      "patterns": ["Sanksi tidak punya KK", "Kalau tidak punya KK?", "Wajib punya KK?"],
+      "responses": [
+        "KK wajib dimiliki oleh setiap keluarga. Tanpa KK, Anda tidak bisa mengurus dokumen penting lainnya seperti KTP, BPJS, dan sekolah anak."
+      ]
+    },
+    {
+      "tag": "ktp_digital",
+      "patterns": ["KTP digital", "Identitas Digital", "e-KTP digital", "Cara akses KTP digital"],
+      "responses": [
+        "KTP Digital dapat diakses melalui aplikasi Identitas Kependudukan Digital (IKD) yang bisa diunduh di Play Store. Anda perlu verifikasi wajah dan data pribadi."
+      ]
+    },
+    {
+      "tag": "layanan_moving_service",
+      "patterns": ["Layanan keliling", "Dukcapil keliling", "Pelayanan bergerak", "Mobil layanan Dukcapil"],
+      "responses": [
+        "Kami memiliki layanan Dukcapil Keliling ke desa/kelurahan tertentu. Jadwal layanan dapat dilihat di website resmi atau media sosial kami."
+      ]
+    },
+    {
+      "tag": "dokumen_untuk_sekolah",
+      "patterns": ["Syarat sekolah", "KK untuk sekolah", "Akta lahir untuk masuk SD"],
+      "responses": [
+        "Untuk pendaftaran sekolah, biasanya dibutuhkan Akta Kelahiran dan KK terbaru. Pastikan nama dan data sesuai dengan dokumen pendukung lainnya."
+      ]
+    }
+  ]
+}
